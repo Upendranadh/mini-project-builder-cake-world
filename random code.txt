@@ -1,0 +1,6 @@
+  //   if (!layer) {
+  //     let html = `<div id="layer${id}"></div>`;
+  //     document
+  //       .querySelector(".cakepage_cake")
+  //       .insertAdjacentHTML("afterbegin", html);
+  //   }

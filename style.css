@@ -1,11 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+/* Fill your code*/
+/* Styling for total cake page */
+.cakepage {
+  background-color: #ffc7c7;
+  height: 100vh;
 }
 
-/* Fill your code*/
+/* styling for cake page header */
+.cakepage_header {
+  text-align: center;
+  height: 15vh;
+  position: relative;
+}
+.cakepage_header--border {
+  width: 250px;
+  height: 175px;
+  border: 1px solid black;
+  border-radius: 100px;
+  position: absolute;
+  left: 500px;
+  top: 0;
+  background-color: black;
+  color: white;
+}
 
+/* styling for cake page content */
+.cakepage_content {
+  background-color: #d9ecf2;
+  height: 70vh;
+}
+
+.cakepage_content--lists {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.cakepage_content--lists > div {
+  display: flex;
+  margin-top: 100px;
+}
+
+.cakepage_content--lists-data {
+  display: flex;
+  flex-direction: column;
+  transform: translate(-200px, 30px);
+  justify-content: flex-start;
+  color: #ff414d;
+}
+.cakepage_content--lists-padding {
+  padding: 8px;
+}
+
+/* styling for cake page buttons */
+
+.cakepage_buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.cakepage_buttons button {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background-color: #d9ecf2;
+  cursor: pointer;
+  outline: 0;
+  transition: all 0.3s;
+}
+
+.cakepage_buttons button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.cakepage_buttons button:active {
+  transform: translateY(0px);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* cake sytling  */
+.cakepage_cake {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 150px;
+  justify-content: flex-end;
+}
+#layer1 {
+  width: 245px;
+  /* height: 40px; */
+  border-radius: 10px;
+  visibility: hidden;
+  background-color: brown;
+}
+
+#layer2 {
+  width: 200px;
+  /* height: 40px; */
+  left: 40px;
+  border-radius: 10px;
+  visibility: hidden;
+  background-color: red;
+}
+
+#layer3 {
+  width: 160px;
+  left: 60px;
+  /* height: 40px; */
+  visibility: hidden;
+  background-color: yellow;
+}
+
+#layer4 {
+  width: 120px;
+  /* height: 40px; */
+  left: 80px;
+  visibility: hidden;
+  background-color: white;
+}
+
+#layer5 {
+  width: 80px;
+  /* height: 40px; */
+  left: 100px;
+  visibility: hidden;
+  background-color: Red;
+}
+
+button.buy {
+  background-color: #28df99;
+}

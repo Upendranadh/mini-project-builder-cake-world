@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
-<script src="/script.js"></script>
+  </head>
+  <body>
+    <div class="cakepage">
+      <div class="cakepage_header">
+        <div class="cakepage_header--border">
+          <img
+            class="cakepage_header--logo"
+            src="./assets/cake.png"
+            alt="cake_logo"
+          />
+          <h2 class="cakepage_header--text">Cake World</h2>
+        </div>
+      </div>
+      <div class="cakepage_content">
+        <div class="cakepage_content--lists">
+          <div>
+            <img src="./assets/list_template.png" alt="list" />
+            <div class="cakepage_content--lists-data">
+              <h4 class="cakepage_content--lists-padding">Prices</h4>
+              <p class="cakepage_content--lists-padding">
+                Chocolate----------300
+              </p>
+              <p class="cakepage_content--lists-padding">
+                StrawBerry--------100
+              </p>
+              <p class="cakepage_content--lists-padding">
+                Butterscotch-------200
+              </p>
+              <p class="cakepage_content--lists-padding">
+                Vanilla-------------250
+              </p>
+              <p class="cakepage_content--lists-padding">
+                Redvelvet---------350
+              </p>
+            </div>
+          </div>
+          <div class="cakepage_cake">
+            <div id="layer5"></div>
+            <div id="layer4"></div>
+            <div id="layer3"></div>
+            <div id="layer2"></div>
+            <div id="layer1"></div>
+          </div>
+          <div>
+            <img src="./assets/list_template.png" alt="list" />
+            <div class="cakepage_content--lists-data price">
+              <h4 class="cakepage_content--lists-padding">Bill</h4>
+              <!-- <div class="cakepage_content--lists-padding">
+                Total Price:${state.totalPrice}
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cakepage_buttons">
+        <button id="1">Chocolate</button>
+        <button id="2">Strawberry</button>
+        <button id="3">ButterScotch</button>
+        <button id="4">vanilla</button>
+        <button id="5">Redvelvet</button>
+        <button id="6" class="buy">Buy</button>
+      </div>
+    </div>
+  </body>
+  <script src="/script.js"></script>
 </html>
